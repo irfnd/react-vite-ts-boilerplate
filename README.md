@@ -15,7 +15,7 @@ A boilerplate/starter project for quickly building web using React with Vite and
   ```
 - Rename this boilerplate to whatever you want and move to that folder
   ```bash
-  cd react-vite-boilerplate
+  cd react-vite-ts-boilerplate
   ```
 - Delete .git folder
 - Reinitialize your git
