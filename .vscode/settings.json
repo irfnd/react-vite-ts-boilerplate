@@ -1,0 +1,15 @@
+{
+	// Editor settings
+	"editor.codeActionsOnSave": { "source.organizeImports": "always" },
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.wordWrap": "on",
+
+	// TypeScript settings
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib",
+
+	// Ignoring generated route tree file
+	"files.readonlyInclude": { "**/routeTree.gen.ts": true },
+	"files.watcherExclude": { "**/routeTree.gen.ts": true },
+	"search.exclude": { "**/routeTree.gen.ts": true }
+}
