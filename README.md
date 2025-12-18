@@ -4,8 +4,12 @@ A boilerplate/starter project for quickly building web using React with Vite and
 
 ## Features
 
-- **Git hooks**: using [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged).
-- **Linting**: using [eslint](https://eslint.org/) and [prettier](https://prettier.io/).
+- **Styling**: using [tailwindcss](https://tailwindcss.com) v4.
+- **State Management**: using [zustand](https://zustand.docs.pmnd.rs).
+- **Routing**: using [tanstack router](https://tanstack.com/router/latest).
+- **API Client**: using [tanstack query](https://tanstack.com/query/latest).
+- **Git hooks**: using [husky](https://github.com/typicode/husky), [lint-staged](https://github.com/okonet/lint-staged).
+- **Linting**: using [eslint](https://eslint.org), [prettier](https://prettier.io).
 
 ## Get Started
 
@@ -24,10 +28,10 @@ A boilerplate/starter project for quickly building web using React with Vite and
   git add .
   git commit -m "Your initialize commit"
   ```
-- Install all packages by typing `npm install` or `yarn`.
+- Install all packages by typing `npm install` / `yarn` / `pnpm i`.
 - Project ready to develop.
-- You can run this project by typing `yarn dev` or `npm run dev`.
-- You can push/publish to your own github by changing some configuration in `package.json` based on the configuration you want.
+- You can run this project by typing `npm run dev` / `yarn dev` / `pnpm dev`.
+- You can push/publish to your own GitHub by changing any configuration you want.
 
 ## Contributing
 
